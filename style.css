@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0%;
+    background-color: #9e8961;
+  }
+  
+  /* Header/logo Title */
+  .header{
+    padding: 200px;
+    text-align: center;
+    background: url(./images/auraWide.jpg) center;
+    color: white;
+    background-size: cover;
+  }
+  
+  a{
+    color: white;
+  }
+  
+  
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 768px) {
+    .navbar {   
+      flex-direction: column;
+    }
+    .header{
+      padding: 100px;
+      text-align: center;
+      background-size: cover;
+    }
+  }
+  @media screen and (max-width: 468px) {
+    .navbar {   
+      flex-direction: column;
+    }
+    .header{
+      padding: 50px;
+      text-align: center;
+      background-size: cover;
+    }
+  }
+    
